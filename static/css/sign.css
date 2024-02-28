@@ -1,0 +1,120 @@
+.img{
+    margin-left: 502px;
+}
+.si{
+    margin-left: 567px;
+    cursor: pointer;
+}
+.dapa{
+    width: 110px;
+    border: 0.5px solid #000000;
+    font-weight: 300px;
+}
+.slo{
+    font-weight: 600;
+    margin-left: 372px;
+    margin-top: 28px;
+}
+.sp{
+    width: 39%;
+    height: 420px;
+    border-radius: 20px;
+    border: 1px solid none;
+    margin-left: 385px;
+    margin-top: 29px;
+    box-shadow: 6px 5px 12px 3px rgba(0, 0, 0, 0.25);
+    background-color: #fff2c5;
+}
+.mn{
+    margin-left: 105px;
+}
+.mn input{
+    height: 20px;
+    margin-top: 110px;
+    margin-left: 81px;
+    background: none;
+    background-color: #fff2c5;
+    visibility:visible;
+    border: none;
+}
+
+.b button{
+    width: 120px;
+    height: 30px;
+    margin-top: 4px;
+    border: none;
+    background-color: #ff9900;
+    margin-left: 206px;
+    cursor: pointer;
+    margin-top: 37px;
+    border-radius: 10px;
+    font-weight: 600;
+}
+.l1{
+    width:90px;
+    margin-left: 146px;
+    margin-top:40px;
+    border: 1px solid black;
+}
+.l3{
+    width:171px;
+    margin-left: 80px;
+    margin-top: -2px;
+    position: absolute;
+    border: 1px solid black;
+}
+#mb{
+    font-size:large;
+    position: absolute;
+    font-weight: 600;
+    top: 271px;
+    left:470px;
+}
+#ww{
+    margin-left: 251px;
+    margin-top: -11px;
+}
+.l2{
+    width:90px;
+    margin-left: 280px;
+    margin-top: -26px;
+    border: 0.5px solid black;
+}
+#qq{
+    margin-left: 208px;
+    font-weight: 700;
+    font-size: larger;
+    margin-top: 30px;
+}
+#go{
+    width: 74px;
+    height: 55px;
+    position: absolute;
+    margin-left: 200px;
+    margin-top: -12px;
+}
+#fa{
+    width: 27px;
+    height: 27px;
+    position: absolute;
+    margin-left: 268px;
+    margin-top: -1px;
+}
+.last{
+    width: 38.2%;
+    height: 72px;
+    border: 1px solid none;
+    position: relative;
+    top: 524px;
+    z-index: -1;
+    left: 396px;
+    border-radius: 14px;
+    background-color: #ff9900;
+}
+.last p{
+    margin-left: 197px;
+    margin-top: 28px;
+}
+
+
+

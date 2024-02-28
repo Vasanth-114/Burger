@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    line-height: normal;
+  }
+  
+  :root {
+    /* fonts */
+    --online-kfc-co-in-2880x13005-default-inter-regular-1198-underline: Inter;
+    --font-poppins: Poppins;
+    --font-source-sans-pro: "Source Sans Pro";
+    --font-outfit: Outfit;
+    --font-open-sans: "Open Sans";
+    --font-photograph-signature: "Photograph Signature";
+    --font-dead-kansas: "Dead Kansas";
+    --font-abril-fatface: "Abril Fatface";
+    --font-aladin: Aladin;
+  
+    /* font sizes */
+    --online-kfc-co-in-2880x13005-default-inter-regular-1198-underline-size: 12px;
+    --online-kfc-co-in-2880x13005-default-inter-medium-1106-size: 11.1px;
+    --online-kfc-co-in-2880x13005-default-inter-regular-1313-size: 13.1px;
+    --online-kfc-co-in-2880x13005-default-inter-regular-128-size: 12.8px;
+    --online-kfc-co-in-2880x13005-default-inter-regular-1291-size: 12.9px;
+    --online-kfc-co-in-2880x13005-default-inter-regular-1323-size: 13.2px;
+    --online-kfc-co-in-2880x13005-default-inter-medium-1302-size: 13px;
+    --online-kfc-co-in-2880x13005-default-inter-regular-1356-size: 13.6px;
+    --online-kfc-co-in-2880x13005-default-inter-regular-1258-size: 12.6px;
+    --online-kfc-co-in-2880x13005-default-inter-regular-1345-size: 13.5px;
+    --font-size-17xl: 36px;
+    --online-kfc-co-in-2880x13005-default-inter-bold-105-upper-size: 10.5px;
+    --online-kfc-co-in-2880x13005-default-inter-bold-2523-upper-size: 25.2px;
+    --online-kfc-co-in-2880x13005-default-inter-bold-1063-upper-size: 10.6px;
+    --online-kfc-co-in-2880x13005-default-inter-bold-1209-upper-size: 12.1px;
+    --font-size-xl: 20px;
+    --font-size-lg: 18px;
+    --font-size-5xl: 24px;
+    --font-size-6xl: 25px;
+    --font-size-5xs: 8px;
+    --font-size-13xl: 32px;
+    --online-kfc-co-in-2880x13005-default-inter-medium-1334-size: 13.3px;
+  
+    /* Colors */
+    --online-kfc-co-in-2880x13005-default-nero: #fff;
+    --color-gray-100: #fffefe;
+    --online-kfc-co-in-2880x13005-default-shark: #202124;
+    --online-kfc-co-in-2880x13005-default-mercury: #e3e3e3;
+    --online-kfc-co-in-2880x13005-default-alto: #dbdbdb;
+    --online-kfc-co-in-2880x13005-default-pampas: #f8f7f5;
+    --online-kfc-co-in-2880x13005-default-tundora: #494949;
+    --color-goldenrod: #e3941c;
+    --color-black: #000;
+  
+    /* Border radiuses */
+    --br-5xs: 8px;
+    --br-141xl: 160px;
+    --br-4xs-2: 8.2px;
+    --br-9xs: 4px;
+    --br-4xs: 9px;
+    --br-sm: 14px;
+    --br-mini: 15px;
+  }
+  

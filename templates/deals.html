@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title> 
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/deals/style.css'%}">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <!-- <p class="zoom-in-element">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed adipisci error reiciendis recusandae soluta at? Sit voluptate inventore dolorem saepe quis quibusdam maxime, facere vitae ut cumque, cum voluptatem accusamus eos dignissimos et corrupti commodi nisi veniam, dicta iusto?</p> -->
+  <div class="container">
+    <div class="bar">
+      <a href="{% url 'homepage' %}"><img src="{% static 'images/deals/JB.png'%}" alt="#" class="img1"></a>
+      <div class="nav-details">
+        <p class="det"><a href="{% url 'menupage' %}">Menu</a></p>
+        <p class="det">Deals</p>
+        <p class="det3"><img src="{% static 'images/deals/button--account-iconsvg.svg'%}" alt="" id="sign-icon">SignIn</p>
+      </div>
+      <div class="picture-page">
+        <p id="eat-burger" data-aos="fade-left">EAT BURGER DO <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; NOTHING</p>
+        <img src="{% static 'images/deals/rectangle-13@2x.png'%}" alt="#">
+      </div>
+      <div class="big-offer">
+        <marquee behavior="" direction="fade-left" >
+        <div class="kk">
+          <div></div>
+          <div></div>
+          <div id="p1">Lorem, ipsum.Lorem, &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ipsum.Lorem, ipsum.Lorem,&nbsp;&nbsp;&nbsp;&nbsp; ipsum.Lorem,&nbsp;&nbsp;&nbsp;&nbsp;ipsum.Lorem, ipsum.</div>
+        </div>
+        </marquee>
+      </div>
+      <div class="big-deal">  
+        <p>BIG DEAL ORDER</p>
+        <div class="border-box">
+          <p>NOW</p>
+        </div>
+      </div>
+      <div class="first-3-burger">
+        <div class="dash-boxes">
+          <div class="black-boxes"></div>
+          <div class="black-boxes"></div>
+          <div class="black-boxes"></div>
+          <div class="one-3-cards">
+            <div class="first-card">
+              <img src="{% static 'images/deals/group.svg'%}" alt="#">
+              <b class="flat-10">Flat-10%</b>
+              <img src="{% static 'images/deals/rectangle-78@2x.png'%}"data-aos="fade-up" alt="" id="burger1">
+              <div class="para1">
+                <p>&nbsp;&nbsp;&nbsp;Add 2 Pc Hot n Crispy Chicken at just Rs 99 on &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;min cart value of Rs 499 or more.</p>
+                <p id="vd">View Details</p>
+                <div class="redeem1">
+                  <p>Redeem</p>
+                </div>
+              </div>
+            </div>
+            <div class="second"></div>
+            <div class="second-card">
+              <img src="{% static 'images/deals/group.svg'%}" alt="#">
+              <b class="flat-20">Flat-20%</b>
+              <img src="{% static 'images/deals/grilled-gourmet-cheeseburger-with-fresh-vegetables-and-fries-generated-by-ai@2x.png'%}"data-aos="fade-down" alt="" id="burger2">
+              <div class="para2">
+                <p>&nbsp;&nbsp;&nbsp;Add 3 Pc Hot n Crispy Chicken at just Rs 299 on &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;min cart value of Rs 799 or more.</p>
+                <p id="vd2">View Details</p>
+                <div class="redeem2">
+                  <p>Redeem</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="third"></div>
+            <div class="third-card">
+              <img src="{% static 'images/deals/group.svg'%}" alt="#">
+              <b class="flat-30">Flat-30%</b>
+              <img src="{% static 'images/deals/rectangle-80@2x.png'%}"data-aos="fade-up" alt="" id="burger3">
+              <div class="para3">
+                <p>&nbsp;&nbsp;&nbsp;Add 5 Pc Hot n Crispy Chicken at just Rs 399 on &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;min cart value of Rs 999 or more.</p>
+                <p id="vd3">View Details</p>
+                <div class="redeem3">
+                  <p>Redeem</p>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+      <div class="first-3-burger">
+        <div class="dash-boxes">
+          <div class="black-boxes"></div>
+          <div class="black-boxes"></div>
+          <div class="black-boxes"></div>
+          <div class="one-3-cards">
+            <div class="first-card">
+              <img src="{% static 'images/deals/group.svg'%}" alt="#">
+              <b class="flat-10">Flat-10%</b>
+              <img src="{% static 'images/deals/rectangle-78@2x.png'%}" data-aos="fade-up" alt="" id="burger1">
+              <div class="para1">
+                <p>&nbsp;&nbsp;&nbsp;Add 2 Pc Hot n Crispy Chicken at just Rs 99 on &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;min cart value of Rs 499 or more.</p>
+                <p id="vd">View Details</p>
+                <div class="redeem1">
+                  <p>Redeem</p>
+                </div>
+              </div>
+            </div>
+            <div class="second"></div>
+            <div class="second-card">
+              <img src="{% static 'images/deals/group.svg'%}" alt="#">
+              <b class="flat-20">Flat-20%</b>
+              <img src="{% static 'images/deals/grilled-gourmet-cheeseburger-with-fresh-vegetables-and-fries-generated-by-ai@2x.png'%}"data-aos="fade-down" alt="" id="burger2">
+              <div class="para2">
+                <p>&nbsp;&nbsp;&nbsp;Add 3 Pc Hot n Crispy Chicken at just Rs 299 on &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;min cart value of Rs 799 or more.</p>
+                <p id="vd2">View Details</p>
+                <div class="redeem2">
+                  <p>Redeem</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="third"></div>
+            <div class="third-card">
+              <img src="{% static 'images/deals/group.svg'%}" alt="#">
+              <b class="flat-30">Flat-30%</b>
+              <img src="{% static 'images/deals/rectangle-80@2x.png'%}"data-aos="fade-up" alt="" id="burger3">
+              <div class="para3">
+                <p>&nbsp;&nbsp;&nbsp;Add 5 Pc Hot n Crispy Chicken at just Rs 399 on &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;min cart value of Rs 999 or more.</p>
+                <p id="vd3">View Details</p>
+                <div class="redeem3">
+                  <p>Redeem</p>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+      <div class="first-3-burger">
+        <div class="dash-boxes">
+          <div class="black-boxes"></div>
+          <div class="black-boxes"></div>
+          <div class="black-boxes"></div>
+          <div class="one-3-cards">
+            <div class="first-card">
+              <img src="{% static 'images/deals/group.svg'%}" alt="#">
+              <b class="flat-10">Flat-10%</b>
+              <img src="{% static 'images/deals/rectangle-78@2x.png'%}" data-aos="fade-up" alt="" id="burger1">
+              <div class="para1">
+                <p>&nbsp;&nbsp;&nbsp;Add 2 Pc Hot n Crispy Chicken at just Rs 99 on &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;min cart value of Rs 499 or more.</p>
+                <p id="vd">View Details</p>
+                <div class="redeem1">
+                  <p>Redeem</p>
+                </div>
+              </div>
+            </div>
+            <div class="second"></div>
+            <div class="second-card">
+              <img src="{% static 'images/deals/group.svg'%}" alt="#">
+              <b class="flat-20">Flat-20%</b>
+              <img src="{% static 'images/deals/grilled-gourmet-cheeseburger-with-fresh-vegetables-and-fries-generated-by-ai@2x.png'%}"data-aos="fade-down" alt="" id="burger2">
+              <div class="para2">
+                <p>&nbsp;&nbsp;&nbsp;Add 3 Pc Hot n Crispy Chicken at just Rs 299 on &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;min cart value of Rs 799 or more.</p>
+                <p id="vd2">View Details</p>
+                <div class="redeem2">
+                  <p>Redeem</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="third"></div>
+            <div class="third-card">
+              <img src="{% static 'images/deals/group.svg'%}" alt="#">
+              <b class="flat-30">Flat-30%</b>
+              <img src="{% static 'images/deals/rectangle-80@2x.png'%}"data-aos="fade-up" alt="" id="burger3">
+              <div class="para3">
+                <p>&nbsp;&nbsp;&nbsp;Add 5 Pc Hot n Crispy Chicken at just Rs 399 on &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;min cart value of Rs 999 or more.</p>
+                <p id="vd3">View Details</p>
+                <div class="redeem3">
+                  <p>Redeem</p>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+      <div class="footer">
+        <img src="{% static 'images/deals/group-2.svg'%}" alt="#" id="jb">
+        <a href="https://www.apple.com/in/app-store/">
+          <img src="{% static 'images/deals/applesvg-fill@2x.png'%}" alt="#" id="apple"></a>
+        <a href="https://play.google.com/store/games?hl=en_IN&gl=US">
+          <img src="{% static 'images/deals/google-playsvg-fill@2x.png'%}" alt="#" id="google">
+          </a>
+        <div class="first-dapa">
+          <p>Legal</p>
+          <p>Terms & conditions</p>
+          <p>Privacy Policy</p>
+          <p>Disclaimer</p>
+          <p>Caution Notice</p>
+        </div>
+        <div class="second-dapa">
+          <p>JustBurger India</p>
+          <p>About JustBurger</p>
+          <p>JustBurger Care</p>
+          <p>Careers</p>
+          <p>Our Golden Past</p>
+        </div>
+        <div class="third-dapa">
+          <p>JustBurger Food</p>
+          <p>Menu</p>
+          <p>Order Lookup</p>
+          <p>Gift Card</p>
+          <p>Nutrition & Allergen</p>
+        </div>
+        <div class="fourth-dapa">
+          <p>Support</p>
+          <p>Get Help</p>
+          <p>Contact Us</p>
+          <p>JustBurger Feedback</p>
+          <p>Privacy Policy</p>
+        </div>
+        <div class="copy-rights">
+          <p>Copyright © JustBurger 2024 All Rights Reserved</p>
+        </div>
+        <div class="social-media">
+          <a href="https://www.instagram.com/jstbrgrs/?hl=en">
+            <img src="{% static 'images/deals/list--item--link--social-insta-whitesvg.svg'%}" alt="#" id="sm1"></a>
+          <a href="https://www.facebook.com/">
+            <img src="{% static 'images/deals/list--item--link--social-facebook-whitesvg.svg'%}" alt="#" id="sm2"></a>
+          <a href="https://twitter.com/">
+            <img src="{% static 'images/deals/list--item--link--social-twitter-whitesvg.svg'%}" alt="#" id="sm3"></a>
+        </div>
+        <div class="contact-page">
+          <img src="{% static 'images/deals/vector.svg'%}" alt="#">
+          <p>Find a JustBurger</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>

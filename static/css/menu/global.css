@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    line-height: normal;
+  }
+  
+  :root {
+    /* fonts */
+    --online-kfc-co-in-2880x13005-default-inter-medium-1106: Inter;
+    --font-outfit: Outfit;
+    --font-julee: Julee;
+    --font-mystery-quest: "Mystery Quest";
+  
+    /* font sizes */
+    --font-size-xs: 12px;
+    --online-kfc-co-in-2880x13005-default-inter-medium-1106-size: 11.1px;
+    --online-kfc-co-in-2880x13005-default-inter-regular-1313-size: 13.1px;
+    --online-kfc-co-in-2880x13005-default-inter-regular-128-size: 12.8px;
+    --online-kfc-co-in-2880x13005-default-inter-regular-1291-size: 12.9px;
+    --online-kfc-co-in-2880x13005-default-inter-regular-1323-size: 13.2px;
+    --online-kfc-co-in-2880x13005-default-inter-medium-1302-size: 13px;
+    --online-kfc-co-in-2880x13005-default-inter-regular-1356-size: 13.6px;
+    --online-kfc-co-in-2880x13005-default-inter-regular-1258-size: 12.6px;
+    --online-kfc-co-in-2880x13005-default-inter-regular-1345-size: 13.5px;
+    --font-size-21xl: 40px;
+    --font-size-5xl: 24px;
+    --font-size-13xl: 32px;
+    --font-size-lgi: 19px;
+    --font-size-xl: 20px;
+  
+    /* Colors */
+    --online-kfc-co-in-2880x13005-default-nero: #fff;
+    --color-gainsboro-100: #e6e6e6;
+    --online-kfc-co-in-2880x13005-default-mercury: #e3e3e3;
+    --color-whitesmoke-100: #f2f0f0;
+    --color-whitesmoke-200: #f0f0f0;
+    --color-black: #000;
+    --color-goldenrod: #e3941c;
+    --color-darkorange: #ff8a00;
+    --color-orange: #ff9900;
+  
+    /* Gaps */
+    --gap-763xl: 782px;
+    --gap-40xl: 59px;
+    --gap-206xl: 225px;
+    --gap-base: 16px;
+    --gap-8xl: 27px;
+    --gap-xl: 20px;
+    --gap-mini: 15px;
+    --gap-63xl: 82px;
+    --gap-85xl: 104px;
+    --gap-80xl: 99px;
+    --gap-3xl: 22px;
+  
+    /* Paddings */
+    --padding-36xl: 55px;
+    --padding-66xl: 85px;
+    --padding-xl: 20px;
+    --padding-16xl: 35px;
+    --padding-8xs: 5px;
+    --padding-2xs: 11px;
+    --padding-8xl: 27px;
+    --padding-10xl: 29px;
+    --padding-5xl: 24px;
+    --padding-4xs: 9px;
+    --padding-39xl: 58px;
+    --padding-sm: 14px;
+    --padding-9xs: 4px;
+    --padding-smi: 13px;
+    --padding-10xs: 3px;
+    --padding-5xs: 8px;
+    --padding-mini: 15px;
+    --padding-lgi: 19px;
+    --padding-lg: 18px;
+    --padding-mid: 17px;
+    --padding-6xs: 7px;
+  
+    /* Border radiuses */
+    --br-3xs: 10px;
+    --br-mini: 15px;
+    --br-4xs: 9px;
+    --br-31xl: 50px;
+    --br-10xl: 29px;
+    --br-2xl: 21px;
+  }
+  
+  
+  
+  
+  
+  
+                  

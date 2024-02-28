@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/sign.css'%}">
+</head>
+<body>
+    <div class="whole">
+        <div class="img">
+            <img src="{% static 'images/JB.png'%}" alt="">
+            
+        </div>
+        <div class="si">
+            Sign In / Sign Up
+            <div class="dapa"></div>
+        </div>
+        <div class="slo">LET'S SIGN IN OR CREATE ACCOUNT WITH YOUR PHONE NUMBER!</div>    
+        <form action="">
+            <div class="sp">
+                <div class="mn">
+                    <p id="mb">Mobile No : </p>
+                    <input type="number" required placeholder="+91" >
+                    <div class="l3"></div>
+                </div>
+                <div class="b">
+                    <button>Get OTP</button>
+                </div>
+                <div class="l1"></div>
+                <p id="ww">Or</p>
+                <div class="l2"></div>
+                <p id="qq">Login Using</p>
+                <a href="https://www.google.com/"><img src="{% static 'images/download (2).png'%}" alt="#" alt="#" id="go"></a>
+                <a href="https://www.facebook.com/"><img src="{% static 'images/facebook.png'%}" alt="" id="fa"></a>
+            </div>
+        </form>
+        <div class="last">
+            <p>Copyright@2021</p>
+        </div>
+    </div>
+</body>
+</html>
+
+<!--<img class="home-child" src="{% static 'images/download (2).png'%}" alt="#">-->

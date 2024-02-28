@@ -1,0 +1,933 @@
+.food-website{
+    width: 1300px;
+    position: relative;
+    background-color: var(--online-kfc-co-in-2880x13005-default-nero);
+    height: 21vh;
+    overflow: hidden;
+    text-align: left;
+    font-size: 30px;
+    color: var(--online-kfc-co-in-2880x13005-default-nero);
+    font-family: var(--online-kfc-co-in-2880x13005-default-inter-regular-1198-underline);
+}
+.header{
+    position: absolute;
+    top: 4px;
+    left: 0;
+    width: 1440px;
+    height: 135px;
+    font-size: var(--online-kfc-co-in-2880x13005-default-inter-regular-1291-size);
+    color: var(--online-kfc-co-in-2880x13005-default-shark);
+}
+.header-child {
+    width: 1224px;
+    right: 0;
+    background-color: var(--online-kfc-co-in-2880x13005-default-nero);
+    box-shadow: 0 4px 3.2px rgba(0, 0, 0, 0.25);
+}
+.cruspy-parent{
+    position: relative;
+}
+.cruspy{
+    position: relative;
+    top: 37px;
+}
+.button-account-iconsvg, .group-item {
+    width: 23.41%;
+    right: 6.59%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    cursor: pointer;
+}
+.group-parent {
+    position: absolute;
+    height: 53.93%;
+    width: 86.4%;
+    top: 22.96%;
+    right: 6.8%;
+    bottom: 23.11%;
+    left: 1.51%;
+}
+.button-account-iconsvg, .group-item {
+    width: 23.41%;
+    right: 6.59%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    cursor: pointer;
+}
+img.button-account-iconsvg {
+    position: absolute;
+    margin-bottom: 91px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.button-account-iconsvg {
+    height: 27.47%;
+    width: 1.61%;
+    top: 34.34%;
+    right: 4.75%;
+    bottom: 38.19%;
+    left: 85.1%;
+    cursor: pointer;
+}
+.button-sign {
+    position: absolute;
+    height: 18.54%;
+    width: 3.46%;
+    top: 38.46%;
+    left: 93.54%;
+    line-height: 24px;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.button-sign a{
+    text-decoration: none;
+    color: #000000;
+}
+.link-button a{
+    text-decoration: none;
+    color: #000000;
+}
+.link-button1 a{
+    text-decoration: none;
+    color: #000000; 
+}
+.button-account-iconsvg, .group-item, .header-child {
+    position: relative;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    padding-left: 79px;
+    cursor: pointer;
+}
+.link-button-button-cart {
+    position: absolute;
+    height: 70.33%;
+    width: 4.12%;
+    top: 10.99%;
+    right: 0;
+    bottom: 18.68%;
+    left: 95.88%;
+    overflow: hidden;
+}
+.button-account-iconsvg{
+    position: absolute;
+    left: 85%;
+}
+.link-button, .link-button1 {
+    position: absolute;
+    height: 32.97%;
+    width: 2.81%;
+    top: 32.97%;
+    left: 81.42%;
+    font-size: var(--online-kfc-co-in-2880x13005-default-inter-medium-1302-size);
+    line-height: 24px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.link-button1 {
+    width: 2.87%;
+    left: 86.46%;
+    font-size: var(--online-kfc-co-in-2880x13005-default-inter-medium-1334-size);
+}
+/*.home-child {
+    position: absolute;
+    top: -64px;
+    
+    width: 1150px;
+    height: 863px;
+    object-fit: cover;
+    
+}
+ .home-item { 
+    position: absolute;
+    top: 469px;
+    left: -126px;
+    background-color: transparent;
+    filter: blur(76.2px);
+    width: 1586px;
+    height: 752px;
+    opacity: 0.83;
+}*/
+
+.home-child{
+    width: 1300px;
+    z-index: 1;
+    height: 623px;
+}
+.unsplashfn6dpytpumc-icon {
+    position: absolute;
+    top: -32px;
+    left: 123px;
+    width: 541px;
+    height: 789px;
+    object-fit: cover;
+    background-color: transparent;
+}
+
+.friends-family1{
+    position: absolute;
+    font-size:103px;
+    letter-spacing: -4px;
+    font-weight: bold;
+    width: 200px;
+    left:67%;
+    margin-top: -32%;
+    color:var(--online-kfc-co-in-2880x13005-default-nero);
+}
+.burger{
+    color:var(--online-kfc-co-in-2880x13005-default-nero);
+    position: absolute;
+    font-size:51px;
+    letter-spacing: -2px;
+    font-weight: 700;
+    left: 77.7%;
+    margin-top: -21.4%;
+}
+.group-child{
+    border: 1px solid black;
+    height: 38px;
+    width: 111px;
+    position: absolute;
+    background-color: var(--color-goldenrod);
+    margin-top:-270px;
+    left: 68.7%;
+    border-radius: var(--br-9xs);
+}
+.tender{
+    
+    font-family: "Jolly Lodger", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 2px;
+    color:var(--color-black);
+    position: absolute;
+    font-size:31px;
+    font-weight: 700;
+    left: 70.2%;
+    margin-top: -20.6%;
+    font-weight: bolder;
+}
+.friends-family2{
+    font-family: "Aladin", system-ui;
+    font-weight: 500;
+    font-size: 29px;
+    width: 275px;
+    font-style: normal;
+    position: absolute;
+    margin-top: -17.5%;
+    left: 75.4%;
+    color:var(--online-kfc-co-in-2880x13005-default-alto);
+}
+.friends-family3{
+    font-size:27px;
+    position: absolute;
+    margin-top: -15.1%;
+    left: 81.9%;
+    font-family: "Aladin", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color:var(--online-kfc-co-in-2880x13005-default-alto);
+}
+.container2{
+    width: 1300px;
+    height: 629px;
+    border: 1px solid transparent;
+    position: relative;
+    background-color: transparent;
+}
+.image-child{
+    position: relative;
+    border-radius: 32px;
+    width: 620px;
+    object-fit: cover;
+}
+.image-child img{
+    width: 540px;
+    height: 637px;
+    margin-left: 149px;
+}
+.welcome{
+    position: absolute;
+    font-family: var(--font-photograph-signature);
+    font-size: 123px;
+    top: -11%;
+    left: 54.4%;
+    opacity: 0.81;
+    height: 1%;
+}
+.welcome p{
+    height: 10px;
+    width: 10%;
+    margin-left: 20px;
+}
+.welcome #p1{
+    position: absolute;
+    font-family: var( --font-open-sans);
+    width: 83%;
+    height: 30%;
+    font-size: 22px;
+    letter-spacing: 2px;
+    font-weight: bolder;
+    margin-top: 11.3%;
+    margin-left: -1px;
+}
+.welcome .we-know-are{
+    font-family: var(--font-open-sans);
+    width: 74%;
+    font-size: 13px;
+    font-weight: 600;
+    justify-content: center;
+    align-content: center;
+    height: 10px;
+    margin-top: 288px;
+    margin-left: -1px;
+    opacity:0.9;
+}
+.today-deals{
+    cursor:pointer;
+    position: relative;
+    top: -24.2%;
+    left: 54.5%;
+    background-color: var(--color-goldenrod);
+    border: 1px solid yellow;
+    width: 18%;
+    height: 9%;
+    border-radius: var(--br-141xl);
+}
+.today-deals p{
+    font-size: 26px;
+    position: absolute;
+    left: 12.6%;
+    top: -11px;
+    color: var(--color-gray-100);
+    font-weight: bold;
+}
+.today-deals img{
+    width: 10%;
+    height: 20px;
+    position: absolute;
+    left: 82%;
+    top: 32%;
+}
+.container-3{
+    position: relative;
+    width: 1300px;
+    margin-top:61px;
+}
+.inside-container{
+    /* border: 1px solid crimson; */
+    box-shadow: 10px 10px 142px 59px rgba(177, 177, 174, 0.75);
+    height: 720px;
+    border-radius: var(--br-4xs-2);
+    width: 92%;
+    position: relative;
+    left: 4.34%;
+    top: 17%;
+}
+.special-item{
+    position: relative;
+}
+.special-item #sp1{
+    font-size: 36px;
+    font-weight:1000;
+    margin-left: 34px;
+    padding-top: 20px;
+}
+.special-item #sp2{
+    font-size: var(--font-size-6xl);
+    font-weight:600;
+    position: absolute;
+    top: 0px;
+    left: 87.5%;
+}
+.Allu{
+    left: 20px;
+    position: relative;
+    width: 45%;
+    height:83.8%;
+    border: 1px solid transparent;
+    /* box-shadow: 5px 1px 0px -2px goldenrod; */
+    /* box-shadow: 5px 5px 23px 5px rgb(235, 187, 66); */
+    border-radius: 20px;
+}
+.Allu img{
+    width:100%;
+}
+.Allu #A1{
+    font-size: 36px;
+    font-weight:590;
+    margin-left: 10px;
+    margin-top: 27px;
+    font-family: var(--font-poppins);
+}
+.Allu #A2{
+    font-family: var(--font-poppins);
+    font-size: 13px;
+    font-weight:bolder;
+    margin-left: 16px;
+    margin-top: -36px;
+}
+.Allu #A3{
+    font-family: var(--font-poppins);
+    font-size: 15.1px;
+    margin-left: 14px;
+    font-weight: 600;
+    margin-top: 29px;
+}
+.Allu #A4{
+    font-family: var(--font-poppins);
+    font-size:var(--font-size-13xl);
+    top: 514px;
+    position: absolute;
+    margin-left: 14px;
+}
+.Allu #A5{
+    position: absolute;
+    font-family: var(--font-poppins);
+    font-size:var(--font-size-13xl);
+    margin-top: 8px;
+    font-weight: bolder;
+    margin-left: 45px;
+}
+.bn-dapa{
+    border: 1px solid rgb(218, 144, 8);
+    width: 44px;
+    height: 37px;
+    position: relative;
+    left: 91%;
+    top: 9px;
+    cursor: pointer;
+    border-radius: var(--br-4xs-2);
+    background-color: var(--color-goldenrod);
+}
+#A6{
+    color: var(--online-kfc-co-in-2880x13005-default-nero);
+    font-size: var(--font-size-13xl);
+    font-family: var(--font-outfit);
+    font-weight: bolder;
+    position: absolute;
+    top: -90%;
+    left: 13px;
+}
+.inside-1{
+    position: relative;
+    width: 20%;
+    height: 42%;
+    border: 1px solid transparent;
+    top: -77%;
+    left: 49%;
+}
+.inside-1 img{
+    width: 116%;
+    margin-right: 10px;
+}
+.inside-1 #B1{
+    position: absolute;
+    font-size: larger;
+    font-weight: bolder;
+    top: 100px;
+    left:12px;
+    color: var(--online-kfc-co-in-2880x13005-default-nero);
+}
+.inside-1 #B2{
+    font-size: 10px;
+    font-family: var(--font-poppins);
+    color: var(--color-goldenrod);
+    position: absolute;
+    left: 12px;
+    top: 134px;
+}
+.inside-1 #B3{
+    font-family: var(--font-poppins);
+    font-size:var(--font-size-5xl);
+    top: 186px;
+    position: absolute;
+    margin-left: 7px;
+}
+.inside-1 #B4{
+    position: absolute;
+    font-family: var(--font-poppins);
+    font-size:var(--font-size-5xl);
+    margin-top: 8px;
+    font-weight: 700;
+    margin-left: 27px;
+}
+.bm-dapa{
+    border: 1px solid rgb(218, 144, 8);
+    width: 34px;
+    height: 28px;
+    position: relative;
+    left: 99%;
+    top: 9px;
+    cursor: pointer;
+    border-radius: var(--br-4xs-2);
+    background-color: var(--color-goldenrod);
+}
+#B5{
+    color: var(--online-kfc-co-in-2880x13005-default-nero);
+    font-size: var(--font-size-13xl);
+    font-family: var(--font-outfit);
+    font-weight: bolder;
+    position: absolute;
+    top: -139.5%;
+    left: 8px;
+}
+.inside-2{
+    position: relative;
+    width: 20%;
+    height: 42%;
+    border: 1px solid transparent;
+    top: -77%;
+    left: 49%;
+}
+.inside-2 img{
+    width: 116%;
+    margin-right: 10px;
+}
+.inside-2 #B1{
+    position: absolute;
+    font-size: larger;
+    font-weight: bolder;
+    top: 100px;
+    left:12px;
+    color: var(--online-kfc-co-in-2880x13005-default-nero);
+}
+.inside-2 #B2{
+    font-size: 10px;
+    font-family: var(--font-poppins);
+    color: var(--color-goldenrod);
+    position: absolute;
+    left: 12px;
+    top: 134px;
+}
+.inside-2 #B3{
+    font-family: var(--font-poppins);
+    font-size:var(--font-size-5xl);
+    top: 186px;
+    position: absolute;
+    margin-left: 7px;
+}
+.inside-2 #B4{
+    position: absolute;
+    font-family: var(--font-poppins);
+    font-size:var(--font-size-5xl);
+    margin-top: 8px;
+    font-weight: 700;
+    margin-left: 27px;
+}
+.bm-dapa{
+    border: 1px solid rgb(218, 144, 8);
+    width: 34px;
+    height: 28px;
+    position: relative;
+    left: 99%;
+    top: 9px;
+    cursor: pointer;
+    border-radius: var(--br-4xs-2);
+    background-color: var(--color-goldenrod);
+}
+#B5{
+    color: var(--online-kfc-co-in-2880x13005-default-nero);
+    font-size: var(--font-size-13xl);
+    font-family: var(--font-outfit);
+    font-weight: bolder;
+    position: absolute;
+    top: -139.5%;
+    left: 8px;
+}
+.inside-3{
+    position: relative;
+    width: 20%;
+    height: 42%;
+    border: 1px solid transparent;
+    top: -161.8%;
+    left: 74.7%;
+}
+.inside-3 img{
+    width: 116%;
+    margin-right: 10px;
+}
+.inside-3 #B1{
+    position: absolute;
+    font-size: larger;
+    font-weight: bolder;
+    top: 100px;
+    left:12px;
+    color: var(--online-kfc-co-in-2880x13005-default-nero);
+}
+.inside-3 #B2{
+    font-size: 10px;
+    font-family: var(--font-poppins);
+    color: var(--color-goldenrod);
+    position: absolute;
+    left: 12px;
+    top: 134px;
+}
+.inside-3 #B3{
+    font-family: var(--font-poppins);
+    font-size:var(--font-size-5xl);
+    top: 186px;
+    position: absolute;
+    margin-left: 7px;
+}
+.inside-3 #B4{
+    position: absolute;
+    font-family: var(--font-poppins);
+    font-size:var(--font-size-5xl);
+    margin-top: 8px;
+    font-weight: 700;
+    margin-left: 27px;
+}
+.bm-dapa{
+    border: 1px solid rgb(218, 144, 8);
+    width: 34px;
+    height: 28px;
+    position: relative;
+    left: 99%;
+    top: 9px;
+    cursor: pointer;
+    border-radius: var(--br-4xs-2);
+    background-color: var(--color-goldenrod);
+}
+#B5{
+    color: var(--online-kfc-co-in-2880x13005-default-nero);
+    font-size: var(--font-size-13xl);
+    font-family: var(--font-outfit);
+    font-weight: bolder;
+    position: absolute;
+    top: -139.5%;
+    left: 8px;
+}
+.inside-4{
+    position: relative;
+    width: 20%;
+    height: 42%;
+    border: 1px solid transparent;
+    top: -162.2%;
+    left: 74.7%;
+}
+.inside-4 img{
+    width: 116%;
+    margin-right: 10px;
+}
+.inside-4 #B1{
+    position: absolute;
+    font-size: larger;
+    font-weight: bolder;
+    top: 100px;
+    left:12px;
+    color: var(--online-kfc-co-in-2880x13005-default-nero);
+}
+.inside-4 #B2{
+    font-size: 10px;
+    font-family: var(--font-poppins);
+    color: var(--color-goldenrod);
+    position: absolute;
+    left: 12px;
+    top: 134px;
+}
+.inside-4 #B3{
+    font-family: var(--font-poppins);
+    font-size:var(--font-size-5xl);
+    top: 186px;
+    position: absolute;
+    margin-left: 7px;
+}
+.inside-4 #B4{
+    position: absolute;
+    font-family: var(--font-poppins);
+    font-size:var(--font-size-5xl);
+    margin-top: 8px;
+    font-weight: 700;
+    margin-left: 27px;
+}
+.bm-dapa{
+    border: 1px solid rgb(218, 144, 8);
+    width: 34px;
+    height: 28px;
+    position: relative;
+    left: 99%;
+    top: 9px;
+    cursor: pointer;
+    border-radius: var(--br-4xs-2);
+    background-color: var(--color-goldenrod);
+}
+#B5{
+    color: var(--online-kfc-co-in-2880x13005-default-nero);
+    font-size: var(--font-size-13xl);
+    font-family: var(--font-outfit);
+    font-weight: bolder;
+    position: absolute;
+    top: -139.5%;
+    left: 8px;
+}
+.container-4{
+    width: 1300px;
+    height: 449px;
+    position: relative;
+    top: 110px;
+    border: 1px solid transparent;
+}
+.browse-category{
+    position: relative;
+    display: flex;
+    gap: 80px;
+}
+.browse-category #BC{
+    position: absolute;
+    font-family: var(--font-poppins);
+    font-weight: bold;
+    font-size: var(--font-size-13xl);
+    left:4.5%;
+}
+.browse-category .BC1{
+    width: 25%;
+    height:338px;
+    position: relative;
+    top: 100px;
+    left: 7%;
+    background-color: var(--online-kfc-co-in-2880x13005-default-mercury);
+    border: 1px solid transparent;
+}
+.BC1 img{
+    position: absolute;
+    width: 100%;
+    height: 276px;
+}
+.BC1 #BC-S{
+    position: absolute;
+    top: 84%;
+    left: 39%;
+}
+.browse-category .BC2{
+    width: 25%;
+    height:338px;
+    position: relative;
+    top: 100px;
+    left: 7%;
+    background-color: var(--online-kfc-co-in-2880x13005-default-mercury);
+    border: 1px solid transparent;
+}
+.BC2 img{
+    position: absolute;
+    width: 100%;
+    height: 276px;
+}
+.BC2 #BC-S{
+    position: absolute;
+    top: 84%;
+    left: 39%;
+}
+.browse-category .BC3{
+    width: 25%;
+    height:338px;
+    position: relative;
+    top: 100px;
+    left: 7%;
+    background-color: var(--online-kfc-co-in-2880x13005-default-mercury);
+    border: 1px solid transparent;
+}
+.BC3 img{
+    position: absolute;
+    width: 100%;
+    height: 276px;
+}
+.BC3 #BC-S{
+    position: absolute;
+    top: 84%;
+    left: 39%;
+}
+
+
+
+.browse-category1{
+    position: relative;
+    display: flex;
+    top: 32px;
+    gap: 80px;
+}
+.browse-category1 #BC{
+    position: absolute;
+    font-family: var(--font-poppins);
+    font-weight: bold;
+    font-size: var(--font-size-13xl);
+    left:4.5%;
+}
+.browse-category1 .BC1{
+    width: 25%;
+    height:338px;
+    position: relative;
+    top: 100px;
+    left: 7%;
+    background-color: var(--online-kfc-co-in-2880x13005-default-mercury);
+    border: 1px solid transparent;
+}
+.BC1 img{
+    position: absolute;
+    width: 100%;
+    height: 276px;
+}
+.BC1 #BC-S{
+    position: absolute;
+    top: 84%;
+    left: 39%;
+}
+.browse-category1 .BC2{
+    width: 25%;
+    height:338px;
+    position: relative;
+    top: 100px;
+    left: 7%;
+    background-color: var(--online-kfc-co-in-2880x13005-default-mercury);
+    border: 1px solid transparent;
+}
+.BC2 img{
+    position: absolute;
+    width: 100%;
+    height: 276px;
+}
+.BC2 #BC-S{
+    position: absolute;
+    top: 84%;
+    left: 39%;
+}
+.browse-category1 .BC3{
+    width: 25%;
+    height:338px;
+    position: relative;
+    top: 100px;
+    left: 7%;
+    background-color: var(--online-kfc-co-in-2880x13005-default-mercury);
+    border: 1px solid transparent;
+}
+.BC3 img{
+    position: absolute;
+    width: 100%;
+    height: 276px;
+}
+.BC3 #BC-S{
+    position: absolute;
+    top: 84%;
+    left: 39%;
+}
+/* .container-5{ 
+    width: 1300;
+    position: relative;
+    border: 1px solid crimson;
+    height:67vh;
+    margin-top: 476px;
+}*/
+.footer{
+    border: 1px solid black;
+    height:363px;
+    width: 1322px;
+    margin-left: -23px;
+    margin-top: 478px;
+    background-color: #000000;
+    opacity: 0.9;
+    position: relative;
+}
+#jb{
+    margin-left: 109px;
+    margin-top: 30px;
+}
+#apple{
+    width: 124px;
+    margin-left: 89%;
+    margin-top:-66px;
+}
+#google{
+    position: absolute;
+    width: 124px;
+    left: 78%;
+    margin-top:-27px;
+    height: 43px;
+}
+.first-dapa{
+    color: aliceblue;
+    margin-top: 32px;
+}
+.first-dapa p{
+    margin-left: 120px;
+    margin-top: 4px;
+    cursor: pointer;
+}
+.second-dapa{
+    margin-left: 357px;
+    margin-top: -173px;
+}
+.second-dapa p{
+    color: aliceblue;
+    cursor: pointer;
+    font-size:medium;
+}
+
+.third-dapa{
+    margin-left: 602px;
+    margin-top: -169px;
+}
+.third-dapa p{
+    color: aliceblue;
+    cursor: pointer;
+    font-size:medium;
+}
+.fourth-dapa{
+    margin-left: 854px;
+    margin-top: -177px;
+}
+.fourth-dapa p{
+    color: aliceblue;
+    cursor: pointer;
+    font-size:medium;
+}
+.copy-rights{
+    color: white;
+    margin-left: 499px;
+    margin-top: 48px;
+    font-size: smaller;
+}
+#sm1{
+    position: absolute;
+    left: 79%;
+    color: aliceblue;
+    background-color: #000000;
+    top: 87%;
+}
+#sm2{
+    position: absolute;
+    left: 82.3%;
+    color: aliceblue;
+    background-color: #000000;
+    top: 87%;
+}
+#sm3{
+    position: absolute;
+    left: 85.6%;
+    color: aliceblue;
+    background-color: #000000;
+    top: 87%;
+}
+.contact-page img{
+    margin-left:88.5%;
+    position: absolute;
+    top: 326px;
+}
+.contact-page p{
+    margin-left:89.5%;
+    position: absolute;
+    top: 314px;
+    font-size: small;
+    color: aliceblue;
+    cursor: pointer;
+}
+.nav-details a{
+    text-decoration: none;
+    color:#000000;
+}
